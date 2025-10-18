@@ -28,6 +28,7 @@ public class Profile extends AppCompatActivity {
         txtEmail=findViewById(R.id.txtEmail);
         txtSDT=findViewById(R.id.txtsdt);
         txtGioiTinh=findViewById(R.id.txtGioiTinh);
+        btnBack=findViewById(R.id.btnBack);
         Intent intent=getIntent();
         String hoTen=intent.getStringExtra("hoTen");
         String email=intent.getStringExtra("email");
